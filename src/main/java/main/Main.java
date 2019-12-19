@@ -45,11 +45,11 @@ public class Main {
 			}catch(NumberFormatException e) {
 				 System.out.println("Edad invalida\n");
 			}
-			System.out.print("¿Desea hacer más pruebas? si o no: ");
+			System.out.print("Â¿Desea hacer mÃ¡s pruebas? si o no: ");
 			salir = leer.next();
 		}while(!salir.equals("no"));
 		leer.close();
-
+		System.out.println("Cambio para probar jenkins");
 	}
 
 }
